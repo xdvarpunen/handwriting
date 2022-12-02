@@ -39,4 +39,3 @@ https://universalstylus.org/certification-faqs/
 https://universalstylus.org/join-usi/
 https://universalstylus.org/members/
 https://universalstylus.org/usi-certified-products/
-

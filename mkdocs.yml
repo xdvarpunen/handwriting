@@ -1,0 +1,4 @@
+site_name: Online Handwriting Recognition
+site_dir: docs
+docs_dir: docssrc
+theme: readthedocs
