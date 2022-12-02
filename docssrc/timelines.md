@@ -4,13 +4,18 @@
 
 - GRiDPad was a trademarked name for a series of pen computing tablets built by Grid Systems Corporation. The GRiDPad 1900, released in 1989, is regarded as the first commercially successful tablet computer.
 
+## 1991
+
+- Ronjon Nag made First selling cursive handwriting recognition with Lexicus, 1991 (Longhand program?)
+
 ## 1992
 
-- Nag co-founded the technology company Lexicus in Palo Alto, California
+- Ronjon Nag co-founded the technology company Lexicus in Palo Alto, California
 
 ## 1993
 
 - The Unistrokes technology was invented at the Palo Alto Research Center (PARC) by David Goldberg in 1993.
+- Motorola acquired Lexicus
 
 ## 1996
 
@@ -39,7 +44,10 @@
 
 
 
-
+Read more
 
 - https://en.wikipedia.org/wiki/GRiDPad
 - https://en.wikipedia.org/wiki/Palm_(PDA)
+- https://www.r42group.com/dr-ronjon-nag
+- https://en.wikipedia.org/wiki/Ronjon_Nag
+- https://archive.fortune.com/magazines/fortune/fortune_archive/1993/09/06/78275/index.htm

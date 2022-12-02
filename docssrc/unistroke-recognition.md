@@ -1,4 +1,4 @@
-# $ Unistroke Recognizer
+# Unistroke Recognizer
 
 ## Graffiti
 
