@@ -51,6 +51,26 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Stylus Supported File Formats</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#inkml-applicationinkmlxml-ink-inkml">InkML ("application/inkml+xml", .ink, .inkml)</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#inkml-toolkit-open-source-contribution-from-hp-labs-india">InkML Toolkit - open source contribution from HP Labs, India</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#isf">ISF</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#will-will">WILL (.will)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#conversion">Conversion</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#will-to-svg">WILL to SVG</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#isf-to-inkml">ISF to InkML</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-bamboo-spark">The Bamboo Spark</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -64,6 +84,14 @@
               </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../tools/">Tools</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../unistroke-recognition/">$ Unistroke Recognizer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../universal-stylus-initiative/">Universal Stylus Initiative</a>
                 </li>
               </ul>
       </div>
@@ -90,41 +118,72 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="stylus-supported-file-formats">Stylus Supported File Formats</h1>
-<p>InkML ("application/inkml+xml", .ink, .inkml)
-https://en.wikipedia.org/wiki/InkML
-https://www.w3.org/2002/mmi/ink
-https://www.w3.org/TR/InkML/
-https://www.w3.org/TR/2011/REC-InkML-20110920/
-InkML Toolkit - open source contribution from HP Labs, India
-https://inkmltk.sourceforge.net/
-https://web.archive.org/web/20020307044715/http://www.hpl.hp.com/india/</p>
-<p>ISF 
-https://en.wikipedia.org/wiki/Ink_Serialized_Format</p>
-<p>WILL (.will)
-https://cdn.wacom.com/u/marketplace/INK-SDK/will/170801_WILL_Data_Format_Spec.pdf
-https://developer-docs.wacom.com/sdk-for-ink/docs/encoding/
-http://developer-docs.wacom.com/sdk-for-ink/docs/overview/
-http://developer-docs.wacom.com/sdk-for-ink/docs/model/
-https://developer-docs.wacom.com/sdk-for-ink/docs/model/assets/will3/diagram/uim-uml-all-v9.png</p>
-<p>Conversion
-http://forum.wacom.eu/viewtopic.php?f=9&amp;t=4584
-WILL to SVG
-https://github.com/Wyess/will2svg
-https://github.com/ngmsoftware/will2svg
-ISF to InkML
-https://stackoverflow.com/questions/7104169/handling-ink-in-microsoft-ink-sdk
-https://sourceforge.net/projects/inkmltk/
-The Bamboo Spark </p>
+<p>Stylus supported applications have feature to save drawn result into specific file format. File format can be reused in other applications and transformed into other file formats.</p>
+<h2 id="inkml-applicationinkmlxml-ink-inkml">InkML ("application/inkml+xml", .ink, .inkml)</h2>
 <blockquote>
-<p>The Bamboo Spark app creates WILL (Wacom Ink Language Layer) files which can be exported as JPG, PDF or WILL files.
-https://support.wacom.com/hc/en-us/articles/1500006342662-Which-file-formats-does-the-app-support-</p>
+<p>InkML is an XML data format for representing digital ink data that is input with an electronic pen or stylus as part of a multimodal system. In the context of the W3C Multimodal Interaction Framework, the markup provides a format for:
+   transferring digital ink data between devices and software components
+   storing hand-input traces for:
+       Handwriting recognition (including text, mathematics, chemistry)
+       Signature verification
+       Gesture interpretation</p>
 </blockquote>
-<p>Hardware
-Universal Stylus Initiative
-https://universalstylus.org/certification-faqs/
-https://universalstylus.org/join-usi/
-https://universalstylus.org/members/
-https://universalstylus.org/usi-certified-products/</p>
+<ul>
+<li>https://www.w3.org/2002/mmi/ink</li>
+<li>https://en.wikipedia.org/wiki/InkML</li>
+<li>https://www.w3.org/2002/mmi/ink</li>
+<li>https://www.w3.org/TR/InkML/</li>
+<li>https://www.w3.org/TR/2011/REC-InkML-20110920/</li>
+</ul>
+<h3 id="inkml-toolkit-open-source-contribution-from-hp-labs-india">InkML Toolkit - open source contribution from HP Labs, India</h3>
+<blockquote>
+<p>InkML is an XML data format and a draft W3C standard for platform and device-neutral representation of digital ink data that is input with an electronic pen or stylus. InkML Toolkit (InkMLTk) is targeted at providing a suite of tools for working with InkML documents. The toolkit includes InkML processor libraries implementing the W3C InkML specification and different kind of tools such as Converters (to and from other ink and image formats), InkML viewers including browser plug-ins, and InkML applications such as a graphical editor.</p>
+<p>InkML Toolkit is brought to you by HP Labs India.</p>
+</blockquote>
+<ul>
+<li>https://inkmltk.sourceforge.net/</li>
+<li>https://web.archive.org/web/20020307044715/</li>
+<li>http://www.hpl.hp.com/india/</li>
+</ul>
+<h2 id="isf">ISF</h2>
+<blockquote>
+<p>Ink Serialized Format (ISF) is a Microsoft format to store written ink information. The format is mainly used for mobile devices like Personal digital assistants, tablet PCs and Ultra-Mobile PCs to store data entered with a stylus. </p>
+</blockquote>
+<ul>
+<li>https://en.wikipedia.org/wiki/Ink_Serialized_Format</li>
+<li>https://learn.microsoft.com/en-us/windows/win32/tablet/ink-serialization-sample</li>
+<li>https://learn.microsoft.com/en-us/uwp/specifications/ink-serialized-format</li>
+<li>https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/InkSerializedFormat(ISF)Specification.pdf</li>
+</ul>
+<h2 id="will-will">WILL (.will)</h2>
+<ul>
+<li>https://cdn.wacom.com/u/marketplace/INK-SDK/will/170801_WILL_Data_Format_Spec.pdf</li>
+<li>https://developer-docs.wacom.com/sdk-for-ink/docs/encoding/</li>
+<li>http://developer-docs.wacom.com/sdk-for-ink/docs/overview/</li>
+<li>http://developer-docs.wacom.com/sdk-for-ink/docs/model/</li>
+<li>https://developer-docs.wacom.com/sdk-for-ink/docs/model/assets/will3/diagram/uim-uml-all-v9.png</li>
+</ul>
+<h2 id="conversion">Conversion</h2>
+<ul>
+<li>http://forum.wacom.eu/viewtopic.php?f=9&amp;t=4584</li>
+</ul>
+<h3 id="will-to-svg">WILL to SVG</h3>
+<ul>
+<li>https://github.com/Wyess/will2svg</li>
+<li>https://github.com/ngmsoftware/will2svg</li>
+</ul>
+<h3 id="isf-to-inkml">ISF to InkML</h3>
+<ul>
+<li>https://stackoverflow.com/questions/7104169/handling-ink-in-microsoft-ink-sdk</li>
+<li>https://sourceforge.net/projects/inkmltk/</li>
+</ul>
+<h3 id="the-bamboo-spark">The Bamboo Spark</h3>
+<blockquote>
+<p>The Bamboo Spark app creates WILL (Wacom Ink Language Layer) files which can be exported as JPG, PDF or WILL files.</p>
+</blockquote>
+<ul>
+<li>https://support.wacom.com/hc/en-us/articles/1500006342662-Which-file-formats-does-the-app-support-</li>
+</ul>
               
             </div>
           </div><footer>
