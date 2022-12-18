@@ -108,9 +108,11 @@
 <h2 id="journey">Journey</h2>
 <p>I am building handwriting recognition from scratch. While working on it looking around and finding the answer what is the challenge in making working handwriting recognition.</p>
 <h3 id="implementations">Implementations</h3>
-<p>First implementation is about having lines passing through circles in a defined size of a box. If all circles are passed then handwriting is recognized as that symbol. This worked with three different numbers (0,1,2), but after that recognition required order due to overlapping lines. </p>
-<p>Second implementation used used snap to grid functionality. Instead of having recognition areas that need to pass through the user is helped to always get certain locations set. This way order is simple to define and recognizing numbers from 0 to 9 was done. This implementation does not scale further due to lacking amount of points. <a href="https://xdvarpunen.github.io/handwriting-0-9-snap-to-grid/">Handwriting recognition demo that supports through snap to grid functionality 0-9 number recognition.</a></p>
-<p>Third implementation is ongoing. More written here when get it done.</p>
+<p>First implementation is about having lines passing through circles in a defined size of a box. If all circles are passed then handwriting is recognized as that symbol. This worked with three different numbers (0,1,2), but after that recognition required order due to overlapping lines. On first implementation I am using just HTML file.</p>
+<p>Second implementation uses snap to grid functionality. Instead of having recognition areas that need to pass through the user is helped to always get certain locations set. This way order is simple to define and recognizing numbers from 0 to 9 was done. This implementation does not scale further due to lacking amount of points. <a href="https://xdvarpunen.github.io/handwriting-0-9-snap-to-grid/">Handwriting recognition demo that supports through snap to grid functionality 0-9 number recognition.</a> On second implementation I am still using just HTML file.</p>
+<p>Third implementation is handwriting on canvas. No restricting areas beside canvas. Line strokes are recognized to be certain type. Intersecting lines are grouped together. Stroke groups are recognized as letters. There was trouble with differentiating line corner and line curve. Third implementation recognized roughly 5 or more letters. <a href="https://github.com/xdvarpunen/handwriting-canvas">Demo incoming</a>. On third implementation I moved to TypeScript due to size of the application.</p>
+<p>The third implementation gave idea to create <a href="https://github.com/xdvarpunen/stroke-order">tool</a> that could facilitate creating rules and features for the handwriting recognition. Tool is built using Python and Tkinter.</p>
+<p>Fourth implementation is ongoing. In this implementation line curve and line corner is solved. More written here when get it done.</p>
               
             </div>
           </div><footer>
@@ -158,5 +160,5 @@
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2022-12-03 07:04:58.185792+00:00
+Build Date UTC : 2022-12-18 23:46:01.148041+00:00
 -->
