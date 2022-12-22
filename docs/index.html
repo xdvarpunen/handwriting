@@ -113,6 +113,8 @@
 <p>Third implementation is handwriting on canvas. No restricting areas beside canvas. Line strokes are recognized to be certain type. Intersecting lines are grouped together. Stroke groups are recognized as letters. There was trouble with differentiating line corner and line curve. Third implementation recognized roughly 5 or more letters. <a href="https://github.com/xdvarpunen/handwriting-canvas">Demo incoming</a>. On third implementation I moved to TypeScript due to size of the application.</p>
 <p>The third implementation gave idea to create <a href="https://github.com/xdvarpunen/stroke-order">tool</a> that could facilitate creating rules and features for the handwriting recognition. Tool is built using Python and Tkinter.</p>
 <p>Fourth implementation is ongoing. In this implementation line curve and line corner is solved. More written here when get it done.</p>
+<p>Figured out the difference between corner and curve by using two additional lines. Comparing the right line and left line of the line drawn finding the intersection can be used to define curves. When lines of the left and right don't intersect then it is corner. Below example the dots show the intersection points of the left and right line of the drawn line. Notice how letter 'L' has no intersection.</p>
+<p><img alt="Screenshot" src="img/curve_vs_corner.png" /></p>
               
             </div>
           </div><footer>
@@ -160,5 +162,5 @@
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2022-12-18 23:46:01.148041+00:00
+Build Date UTC : 2022-12-21 23:59:33.595980+00:00
 -->

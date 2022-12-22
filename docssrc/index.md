@@ -18,3 +18,7 @@ The third implementation gave idea to create [tool](https://github.com/xdvarpune
 
 Fourth implementation is ongoing. In this implementation line curve and line corner is solved. More written here when get it done.
 
+Figured out the difference between corner and curve by using two additional lines. Comparing the right line and left line of the line drawn finding the intersection can be used to define curves. When lines of the left and right don't intersect then it is corner. Below example the dots show the intersection points of the left and right line of the drawn line. Notice how letter 'L' has no intersection.
+
+![Screenshot](img/curve_vs_corner.png)
+
