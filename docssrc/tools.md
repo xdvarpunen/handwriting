@@ -29,6 +29,8 @@ Apple Scribble does not support comma or other puncutation.
 
 - [Homepage](https://www.myscript.com/)
 
+
+
 # Notes
 
 - Recognition is limited to single language

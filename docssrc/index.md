@@ -22,3 +22,8 @@ Figured out the difference between corner and curve by using two additional line
 
 ![Screenshot](img/curve_vs_corner.png)
 
+Fourth implementation worked with full set of alphabet characters (Stone Optimized Shorthand). Demo below:
+
+![Screenshot](img/shorthand_demo.png)
+
+Continuing to develop more features than just alphabet characters. Additional features will be numbers, punctuation, space and different character set.
