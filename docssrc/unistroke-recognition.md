@@ -1,5 +1,7 @@
 # Unistroke Recognizer
 
+Handwriting recognition based on single strokes.
+
 ## Graffiti
 
 - https://en.wikipedia.org/wiki/Graffiti_(Palm_OS)
