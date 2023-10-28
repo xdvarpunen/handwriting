@@ -26,4 +26,10 @@ Fourth implementation worked with full set of alphabet characters (Stone Optimiz
 
 ![Screenshot](img/shorthand_demo.png)
 
+Added character set management web application to reduce work on memorizing how to draw characters especially when [developing custom ones](https://xdvarpunen.github.io/handwriting-tutorial-generator/).
+
+![Alt text](img/character_set_management.png)
+
+![Alt text](img/character_set_report.png)
+
 Continuing to develop more features than just alphabet characters. Additional features will be numbers, punctuation, space and different character set.
